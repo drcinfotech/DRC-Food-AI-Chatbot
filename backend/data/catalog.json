@@ -1,0 +1,193 @@
+{
+  "restaurants": [
+    {
+      "id": "REST-101",
+      "name": "Saffron Kitchen",
+      "tagline": "North-Indian thali, kebabs & curries",
+      "cuisine": ["North Indian", "Mughlai"],
+      "rating": 4.4,
+      "review_count": 1240,
+      "price_for_two": 600,
+      "delivery_minutes": 32,
+      "distance_km": 1.8,
+      "area": "Vesu",
+      "city": "Surat",
+      "open_now": true,
+      "veg_only": false,
+      "popular_items": ["mi-001", "mi-003", "mi-006"]
+    },
+    {
+      "id": "REST-202",
+      "name": "Green Bowl Co.",
+      "tagline": "Salads, grain bowls, smoothies — all vegetarian",
+      "cuisine": ["Healthy", "Salads", "Continental"],
+      "rating": 4.6,
+      "review_count": 890,
+      "price_for_two": 500,
+      "delivery_minutes": 28,
+      "distance_km": 2.4,
+      "area": "Adajan",
+      "city": "Surat",
+      "open_now": true,
+      "veg_only": true,
+      "popular_items": ["mi-101", "mi-103", "mi-105"]
+    },
+    {
+      "id": "REST-303",
+      "name": "Slice Society",
+      "tagline": "Wood-fired pizza & pasta",
+      "cuisine": ["Italian", "Pizza", "Pasta"],
+      "rating": 4.3,
+      "review_count": 2105,
+      "price_for_two": 700,
+      "delivery_minutes": 38,
+      "distance_km": 3.1,
+      "area": "Citylight",
+      "city": "Surat",
+      "open_now": true,
+      "veg_only": false,
+      "popular_items": ["mi-201", "mi-203", "mi-206"]
+    },
+    {
+      "id": "REST-404",
+      "name": "Wok Express",
+      "tagline": "Indo-Chinese, momos & noodles",
+      "cuisine": ["Chinese", "Indo-Chinese"],
+      "rating": 4.1,
+      "review_count": 1560,
+      "price_for_two": 450,
+      "delivery_minutes": 26,
+      "distance_km": 1.4,
+      "area": "Athwa",
+      "city": "Surat",
+      "open_now": true,
+      "veg_only": false,
+      "popular_items": ["mi-301", "mi-303", "mi-305"]
+    },
+    {
+      "id": "REST-505",
+      "name": "Bake Theory",
+      "tagline": "Desserts, cakes & artisan coffee",
+      "cuisine": ["Desserts", "Bakery", "Cafe"],
+      "rating": 4.7,
+      "review_count": 680,
+      "price_for_two": 350,
+      "delivery_minutes": 22,
+      "distance_km": 1.2,
+      "area": "Pal",
+      "city": "Surat",
+      "open_now": true,
+      "veg_only": true,
+      "popular_items": ["mi-401", "mi-403", "mi-405"]
+    },
+    {
+      "id": "REST-606",
+      "name": "Tandoor & Tales",
+      "tagline": "Premium kebabs, biryani — late-night ready",
+      "cuisine": ["North Indian", "Biryani", "Kebabs"],
+      "rating": 4.5,
+      "review_count": 2890,
+      "price_for_two": 850,
+      "delivery_minutes": 42,
+      "distance_km": 4.0,
+      "area": "Ghod Dod Road",
+      "city": "Surat",
+      "open_now": false,
+      "veg_only": false,
+      "popular_items": ["mi-501", "mi-503", "mi-505"]
+    }
+  ],
+  "menu": {
+    "REST-101": [
+      { "id": "mi-001", "name": "Paneer Tikka Masala",     "category": "Mains",      "price": 280, "veg": true,  "spice": "medium", "allergens": ["dairy"],                  "description": "Cottage cheese in a creamy tomato gravy" },
+      { "id": "mi-002", "name": "Dal Makhani",             "category": "Mains",      "price": 220, "veg": true,  "spice": "mild",   "allergens": ["dairy"],                  "description": "Slow-cooked black lentils with butter" },
+      { "id": "mi-003", "name": "Chicken Tikka",           "category": "Starters",   "price": 320, "veg": false, "spice": "medium", "allergens": ["dairy"],                  "description": "Tandoor-grilled chicken with yogurt marinade" },
+      { "id": "mi-004", "name": "Veg Biryani",             "category": "Rice",       "price": 240, "veg": true,  "spice": "medium", "allergens": ["dairy", "nuts"],          "description": "Basmati rice with mixed vegetables and saffron" },
+      { "id": "mi-005", "name": "Garlic Naan",             "category": "Breads",     "price": 60,  "veg": true,  "spice": "mild",   "allergens": ["gluten", "dairy"],        "description": "Tandoor-baked bread with garlic butter" },
+      { "id": "mi-006", "name": "Mutton Rogan Josh",       "category": "Mains",      "price": 380, "veg": false, "spice": "hot",    "allergens": ["dairy"],                  "description": "Kashmiri-style slow-cooked mutton curry" },
+      { "id": "mi-007", "name": "Gulab Jamun",             "category": "Desserts",   "price": 120, "veg": true,  "spice": "none",   "allergens": ["dairy", "gluten", "nuts"], "description": "Milk-solid dumplings in rose syrup" }
+    ],
+    "REST-202": [
+      { "id": "mi-101", "name": "Quinoa Power Bowl",       "category": "Bowls",      "price": 320, "veg": true,  "spice": "mild",   "allergens": [],                          "description": "Quinoa, chickpeas, roast veg, tahini dressing" },
+      { "id": "mi-102", "name": "Greek Salad",             "category": "Salads",     "price": 260, "veg": true,  "spice": "none",   "allergens": ["dairy"],                  "description": "Tomato, cucumber, olives, feta, oregano dressing" },
+      { "id": "mi-103", "name": "Avocado Smash Toast",     "category": "Toasts",     "price": 240, "veg": true,  "spice": "mild",   "allergens": ["gluten"],                 "description": "Sourdough, smashed avocado, chilli flakes" },
+      { "id": "mi-104", "name": "Mango Smoothie Bowl",     "category": "Smoothies",  "price": 220, "veg": true,  "spice": "none",   "allergens": ["dairy", "nuts"],          "description": "Mango, banana, granola, coconut" },
+      { "id": "mi-105", "name": "Hummus & Pita Platter",   "category": "Sharing",    "price": 280, "veg": true,  "spice": "mild",   "allergens": ["gluten", "sesame"],       "description": "House hummus, warm pita, olive oil" },
+      { "id": "mi-106", "name": "Berry Acai Bowl",         "category": "Smoothies",  "price": 320, "veg": true,  "spice": "none",   "allergens": ["nuts"],                   "description": "Acai, mixed berries, granola, honey" }
+    ],
+    "REST-303": [
+      { "id": "mi-201", "name": "Margherita Pizza",        "category": "Pizza",      "price": 320, "veg": true,  "spice": "mild",   "allergens": ["gluten", "dairy"],        "description": "San Marzano tomato, mozzarella, basil" },
+      { "id": "mi-202", "name": "Pepperoni Pizza",         "category": "Pizza",      "price": 420, "veg": false, "spice": "medium", "allergens": ["gluten", "dairy"],        "description": "Tomato, mozzarella, pepperoni" },
+      { "id": "mi-203", "name": "Penne Arrabbiata",        "category": "Pasta",      "price": 280, "veg": true,  "spice": "hot",    "allergens": ["gluten"],                 "description": "Spicy tomato sauce, garlic, chilli" },
+      { "id": "mi-204", "name": "Spaghetti Carbonara",     "category": "Pasta",      "price": 340, "veg": false, "spice": "mild",   "allergens": ["gluten", "dairy", "egg"], "description": "Bacon, egg, parmesan, black pepper" },
+      { "id": "mi-205", "name": "Caesar Salad",            "category": "Salads",     "price": 240, "veg": false, "spice": "mild",   "allergens": ["gluten", "dairy", "egg", "fish"], "description": "Romaine, parmesan, anchovy dressing, croutons" },
+      { "id": "mi-206", "name": "Tiramisu",                "category": "Desserts",   "price": 180, "veg": true,  "spice": "none",   "allergens": ["dairy", "egg", "gluten"], "description": "Mascarpone, espresso-soaked ladyfingers, cocoa" }
+    ],
+    "REST-404": [
+      { "id": "mi-301", "name": "Veg Hakka Noodles",       "category": "Noodles",    "price": 180, "veg": true,  "spice": "medium", "allergens": ["gluten", "soy"],          "description": "Wok-tossed noodles with veggies" },
+      { "id": "mi-302", "name": "Chicken Manchurian",      "category": "Mains",      "price": 260, "veg": false, "spice": "hot",    "allergens": ["gluten", "soy"],          "description": "Crispy chicken in spicy Manchurian sauce" },
+      { "id": "mi-303", "name": "Veg Momos (Steamed)",     "category": "Starters",   "price": 140, "veg": true,  "spice": "mild",   "allergens": ["gluten", "soy"],          "description": "8 pcs · house chilli sauce" },
+      { "id": "mi-304", "name": "Chicken Momos (Fried)",   "category": "Starters",   "price": 180, "veg": false, "spice": "medium", "allergens": ["gluten", "soy", "egg"],   "description": "8 pcs · crispy fried · spicy mayo" },
+      { "id": "mi-305", "name": "Schezwan Fried Rice",     "category": "Rice",       "price": 200, "veg": true,  "spice": "hot",    "allergens": ["soy"],                    "description": "Spicy schezwan-style fried rice" }
+    ],
+    "REST-505": [
+      { "id": "mi-401", "name": "Dark Chocolate Truffle",  "category": "Cakes",      "price": 180, "veg": true,  "spice": "none",   "allergens": ["dairy", "egg", "gluten"], "description": "Per slice · 70% dark chocolate ganache" },
+      { "id": "mi-402", "name": "Red Velvet Slice",        "category": "Cakes",      "price": 180, "veg": true,  "spice": "none",   "allergens": ["dairy", "egg", "gluten"], "description": "Cream-cheese frosting" },
+      { "id": "mi-403", "name": "Croissant (plain)",       "category": "Pastries",   "price": 90,  "veg": true,  "spice": "none",   "allergens": ["dairy", "gluten", "egg"], "description": "Buttery, flaky · baked daily" },
+      { "id": "mi-404", "name": "Almond Brownie",          "category": "Bakes",      "price": 120, "veg": true,  "spice": "none",   "allergens": ["dairy", "egg", "gluten", "nuts"], "description": "Walnut-almond fudge brownie" },
+      { "id": "mi-405", "name": "Cold Brew Coffee",        "category": "Drinks",     "price": 160, "veg": true,  "spice": "none",   "allergens": [],                          "description": "12 hr cold-brewed · black or with milk" }
+    ],
+    "REST-606": [
+      { "id": "mi-501", "name": "Hyderabadi Chicken Biryani","category": "Biryani",  "price": 380, "veg": false, "spice": "medium", "allergens": ["dairy", "nuts"],          "description": "Dum-cooked basmati with marinated chicken" },
+      { "id": "mi-502", "name": "Lucknowi Mutton Biryani", "category": "Biryani",    "price": 460, "veg": false, "spice": "medium", "allergens": ["dairy", "nuts"],          "description": "Aromatic mutton biryani with kewra" },
+      { "id": "mi-503", "name": "Galouti Kebab",           "category": "Kebabs",     "price": 360, "veg": false, "spice": "medium", "allergens": ["dairy", "nuts", "gluten"], "description": "Melt-in-mouth mutton kebabs · 6 pcs" },
+      { "id": "mi-504", "name": "Tandoori Chicken (half)", "category": "Kebabs",     "price": 320, "veg": false, "spice": "medium", "allergens": ["dairy"],                  "description": "Yogurt-marinated, tandoor-fired" },
+      { "id": "mi-505", "name": "Phirni",                  "category": "Desserts",   "price": 140, "veg": true,  "spice": "none",   "allergens": ["dairy", "nuts"],          "description": "Slow-cooked ground rice pudding with cardamom" }
+    ]
+  },
+  "current_order": null,
+  "recent_orders": [
+    {
+      "id": "ORD-90412",
+      "restaurant_id": "REST-101",
+      "restaurant_name": "Saffron Kitchen",
+      "items": [
+        { "name": "Paneer Tikka Masala", "qty": 1, "price": 280 },
+        { "name": "Garlic Naan",         "qty": 2, "price": 60  },
+        { "name": "Dal Makhani",         "qty": 1, "price": 220 }
+      ],
+      "subtotal": 620,
+      "delivery_fee": 30,
+      "tax": 31,
+      "total": 681,
+      "placed_at": "Nov 28 · 8:42 PM",
+      "status": "Delivered",
+      "rating": 4
+    },
+    {
+      "id": "ORD-90388",
+      "restaurant_id": "REST-202",
+      "restaurant_name": "Green Bowl Co.",
+      "items": [
+        { "name": "Quinoa Power Bowl", "qty": 1, "price": 320 },
+        { "name": "Cold Brew Coffee",  "qty": 1, "price": 160 }
+      ],
+      "subtotal": 480,
+      "delivery_fee": 25,
+      "tax": 24,
+      "total": 529,
+      "placed_at": "Nov 24 · 1:15 PM",
+      "status": "Delivered",
+      "rating": 5
+    }
+  ],
+  "addresses": [
+    { "id": "ADDR-1", "label": "Home",  "line1": "B-402, Riverbend Apartments", "line2": "Adajan", "city": "Surat", "pincode": "395009", "is_default": true },
+    { "id": "ADDR-2", "label": "Work",  "line1": "Tech Hub, Floor 7",           "line2": "Citylight",     "city": "Surat", "pincode": "395007", "is_default": false }
+  ],
+  "offers": [
+    { "code": "FIRSTBITE",  "headline": "50% off up to ₹150",      "min_order": 300, "applicable": "First order any restaurant",   "expires": "Dec 31, 2025" },
+    { "code": "BOWLSAVE",   "headline": "20% off on Green Bowl",   "min_order": 250, "applicable": "Green Bowl Co. only",          "expires": "Dec 15, 2025" },
+    { "code": "DESSERT100", "headline": "Flat ₹100 off",           "min_order": 400, "applicable": "Desserts category",            "expires": "Dec 20, 2025" }
+  ]
+}
