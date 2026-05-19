@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 drcinfotech
+Copyright (c) 2026 DRC Infotech LLP
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,52 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-────────────────────────────────────────────────────────────────────────────
-
-ADDITIONAL FOOD, RESTAURANT & DELIVERY DISCLAIMER
-
-This software is a technical demonstration of conversational AI patterns for
-food ordering and delivery use cases. It is NOT:
-
-  • A real food delivery service or restaurant aggregator
-  • An FSSAI-licensed food business operator
-  • Connected to any real restaurant, kitchen, payment gateway, or delivery
-    network
-
-The included data (restaurants, menus, dish prices, allergen tags, RERA-style
-identifiers, riders, addresses, offers) is entirely FICTIONAL. Restaurant
-names like Saffron Kitchen, Green Bowl Co., and Slice Society are invented
-brands and do not correspond to any real establishment.
-
-THE ALLERGEN SAFETY LAYER IS BEST-EFFORT AND CANNOT VERIFY KITCHEN-LEVEL
-SAFETY. Menu allergen tags reflect only the ingredients explicitly listed by
-the source data. Real-world allergens travel through:
-
-  • Cross-contamination from shared cooking surfaces, oils, knives, utensils
-  • Hidden ingredients not always disclosed by restaurants
-  • Stock-rotation and substitution at the kitchen's discretion
-  • Trace exposure during plating and packaging
-
-No software — including this one — can verify what's actually happening in
-a restaurant's kitchen. If you have a SEVERE or LIFE-THREATENING food allergy
-(anaphylaxis risk), this demo's allergen filters are NOT a safe substitute
-for calling the restaurant, reviewing their published allergen statement,
-and confirming preparation procedures directly with the chef.
-
-EMI-style offer math (FIRSTBITE 50% up to ₹150, BOWLSAVE 20% on Green Bowl,
-DESSERT100 flat ₹100 off) is illustrative. Real offer terms vary by platform.
-
-Age-gating for alcohol is acknowledged but not enforced — Gujarat is a dry
-state where alcohol delivery is restricted. India's legal drinking age
-varies by state (18–25). Real platforms enforce ID verification at handover.
-
-Payment privacy: this demo refuses to accept card numbers / CVV / OTP / PIN
-through chat. Real payment flows must use PCI-DSS-compliant encrypted
-gateways with explicit user consent — chat is never an appropriate channel
-for payment instrument data.
-
-Do not deploy this software as a real food delivery platform without
-substantial modification, FSSAI compliance, qualified review of the allergen
-disclosure system by a registered dietitian or food-safety professional, and
-proper payment-gateway integration with a PCI-DSS-certified provider.
