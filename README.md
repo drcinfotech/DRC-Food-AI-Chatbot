@@ -1,8 +1,8 @@
-# 🍽️ Order Assistant — Food, Restaurant Ordering & Delivery AI Chatbot
+# 🍽️ DRC Order Assistant — Food, Restaurant Ordering & Delivery AI Chatbot
 
 A production-grade conversational AI demo for the food, restaurant, and delivery industry. Built with **Python + FastAPI** on the backend and **React + Vite + Tailwind** on the frontend, with an **allergen-safety-first** architecture and rich response blocks for restaurants, menus, carts, order tracking, offers, dietary filters, and recommendations.
 
-> ⚠️ **Demo only.** Order Assistant is not a real food delivery service, FSSAI-licensed food business, or restaurant aggregator. All restaurants, menus, prices, riders, and offers are fictional. The bot uses a generic functional name ("Order Assistant") rather than a brand persona — this is intentional, since descriptive terms describing the actual function cannot be trademarked as brands for those same goods.
+> ⚠️ **Demo only.** DRC Order Assistant is not a real food delivery service, FSSAI-licensed food business, or restaurant aggregator. All restaurants, menus, prices, riders, and offers are fictional. The bot uses a generic functional name ("DRC Order Assistant") rather than a brand persona — this is intentional, since descriptive terms describing the actual function cannot be trademarked as brands for those same goods.
 
 ![CI](https://img.shields.io/github/actions/workflow/status/drcinfotech/Food-AI-Chatbot/ci.yml?branch=main&label=tests)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-3776AB?logo=python&logoColor=white)
@@ -249,7 +249,7 @@ This is a **demonstration project**. It is not production-ready food software.
 
 ### A note on the name
 
-Like the Education and Real Estate projects in this series, Order Assistant uses a **generic functional name** rather than an invented brand. Descriptive terms describing the actual function of a tool cannot be claimed as trademarks for those same goods, which is the trademark-safest pattern for a portfolio/demo project. If you fork this to launch commercially, you'll need to pick a distinctive brand name and clear it with a trademark attorney.
+Like the Education and Real Estate projects in this series, DRC Order Assistant uses a **generic functional name** rather than an invented brand. Descriptive terms describing the actual function of a tool cannot be claimed as trademarks for those same goods, which is the trademark-safest pattern for a portfolio/demo project. If you fork this to launch commercially, you'll need to pick a distinctive brand name and clear it with a trademark attorney.
 
 ---
 
